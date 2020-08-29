@@ -1,0 +1,57 @@
+/* Nav Bar here */
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  list-style-type: none;
+  background: black;
+  margin: 0;
+  padding:0px;
+  overflow: hidden;
+}
+
+.menu li {
+  float:left;
+}
+
+.menu li a {
+  display:block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  padding: 14px 16px;
+
+}
+
+.menu li a:hover:not(.active) {
+  background-color: red;
+}
+
+/* Nav Bar Ends */
+
+.button {
+  border: solid black;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.5s;
+  text-align: center;
+  background-color: transparent;
+}
+
+.button1 {
+  border: 2px solid black;
+  color: white;
+}
+
+
+.button1:hover{
+  background-color: red;
+  color:white;
+}
